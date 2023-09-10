@@ -1,0 +1,63 @@
+/* Apply a background color and set text color for the entire page */
+/* Apply a background color and set text color for the entire page */
+body {
+  background-color: #f0f0f0; /* Light gray background */
+  color: #333; /* Dark gray text color */
+  font-family: Arial, sans-serif;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  overflow-x: hidden; /* Hide horizontal overflow */
+  text-align: justify; /* Justificar el texto */
+}
+
+/* Style the header (h1) */
+header {
+  background-color: #007bff; /* Blue header background */
+  color: #fff; /* White header text color */
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Create a container for teams */
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Cambiado a space-between para dos columnas */
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Style each team */
+.team {
+  flex-basis: calc(50% - 20px);
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Style team images */
+.team img {
+  max-width: 100px;
+}
+
+/* Style buttons */
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  display: block; /* Make buttons block-level elements */
+  margin-top: 10px;
+  cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+/* Hover effect for buttons */
+.btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
